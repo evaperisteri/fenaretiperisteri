@@ -1,5 +1,44 @@
-@import "tailwindcss";
-@theme {
-  --font-display: "Bebas Neue", "sans-serif";
-  
+:root {
+  --blue-bic: #02024d;
+  --beige-bg: #fce6ce;
+}
+
+.bg-beige {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: var(--beige-bg);
+}
+
+.bic-blue {
+  color: var(--blue-bic);
+}
+
+.img-logo {
+  width: 80px;
+}
+
+.nav.nav-tabs .nav-link {
+  background-color: var(--beige-bg);
+  color: var(--blue-bic); 
+  border: 1px solid #d0d8e0;
+  border-bottom: none;
+}
+
+.nav.nav-tabs .nav-link.active {
+  background-color: var(--blue-bic);
+  color: var(--beige-bg);
+  border: 1px solid #054a94;
+  border-bottom: none;
+}
+
+.nav.nav-tabs .nav-link:hover {
+  background-color: var(--blue-bic); 
+  color: var(--beige-bg); 
+}
+
+.h-screen {
+  height: 70vh;
+}
+
+.carousel-item .carousel-caption {
+  color: var(--blue-bic);
 }
